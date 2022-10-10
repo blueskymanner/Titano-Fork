@@ -1,0 +1,8 @@
+.content {
+    display: flex;
+    background: rgba(0, 0, 0, 0);
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: calc(100% + 48px);
+    margin: -24px;
+}

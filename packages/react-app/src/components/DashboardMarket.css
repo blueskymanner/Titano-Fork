@@ -1,0 +1,26 @@
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 48px;
+  text-align: center;
+  background: rgba(19,24,35,0.4);
+  -webkit-backdrop-filter: blur(33px);
+  backdrop-filter: blur(33px);
+  border-radius: 12px;
+  border: 1px solid rgba(19,207,207,0.1);
+}
+
+.dashboard .market {
+  padding: 20px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard .market .title {
+  color: #D0DCE8B2;
+}
+
+.dashboard .market .value {
+  color: #D0DCE8;
+}

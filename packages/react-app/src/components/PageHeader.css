@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo .title {
+  font-size: 30px;
+  color: #FFFFFF;
+}

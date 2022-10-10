@@ -1,0 +1,30 @@
+.card_container {
+  background: rgba(0, 0, 0, 0);
+  max-width: 50%;
+  flex-basis: 50%;
+  flex-grow: 0;
+  padding: 24px;
+}
+
+.card {
+  background: rgba(19,24,35,0.4);
+  backdrop-filter: blur(33px);
+  border-radius: 22.1411px;
+  border: 1px solid rgba(19,207,207,0.1);
+  padding: 32px 32px 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.card .percent {
+  float: right;
+  background: rgba(19,24,35,.3411764705882353);
+  backdrop-filter: blur(33px);
+  border-radius: 21.2895px;
+  border: 1px solid rgba(19,207,207,.06666666666666667);
+  padding: 6px 16px;
+  box-shadow: 11.4753980637px 11.4753980637px 11.4753980637px 0 rgb(0 0 0 / 25%);
+  color: #26e2b3;
+  font-size: 12px;
+}

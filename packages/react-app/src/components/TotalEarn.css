@@ -1,0 +1,30 @@
+.account_container {
+  width: 70%;
+  margin: auto;
+  background: rgba(0, 0, 0, 0);
+  margin-bottom: 60px;
+}
+
+.total_earned {
+  padding: 16px 32px;
+  background: rgba(19,24,35,0.4);
+  backdrop-filter: blur(33px);
+  border-radius: 22.1411px;
+  border: 1px solid rgba(19,207,207,0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.total_earned .balance {
+  background: linear-gradient(105.87deg,hsla(0,0%,100%,.021) 3.04%,rgba(1,0,10,.041) 96.05%);
+  box-sizing: border-box;
+  border-radius: 21px;
+  border: 1px solid rgba(19,207,207,0.1);
+}
+
+@media (max-width: 992px) {
+  .account_container { 
+    width: 100%;
+  }
+}
